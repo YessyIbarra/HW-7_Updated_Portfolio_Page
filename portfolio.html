@@ -19,19 +19,19 @@
 </head>
 
 <style>
-  p,
-  h1,
-  h2,
-  a,
-  span {
+  p,h1,h2,a,span {
     font-family: 'Playfair Display', serif;
+  };
+
+  @media only screen and (max-width: 768px) {
+  #project-1, #planner, #password, #layout {
+    height: auto; 
   }
-
-  ;
-
   html {
-    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
 
   ;
 </style>
@@ -70,7 +70,7 @@
           <!--*Note: "m" stands for margin and y sets both padding-top , padding-bottom , margin top, margin bottom-->
           <article class="col-sm-6 my-3">
             <a href="https://tanjamboy.github.io/Project_1-Game_Search/">
-              <img src="./images/gameSearch.png" alt="video game characters is background" width="540" height="360"
+              <img id="project-1" src="./images/gameSearch.png" alt="video game characters is background" width="540" height="360"
                 style="max-width: 100%" class="rounded border border-dark">
             </a>
             <!--540x360-->
@@ -81,17 +81,18 @@
 
           <article class="col-sm-6 my-3">
             <a href="https://yessyibarra.github.io/HW-5_Day-Planner/">
-              <img src="./images/plan.png" alt="a day planner" width="540" height="360" style="max-width: 100%"
+              <img id="planner" src="./images/plan.png" alt="a day planner" width="540" height="360" style="max-width: 100%"
                 class="rounded border border-dark">
             </a>
             <h2 class="my-3 text-center">Day Planner</h2>
             <p class="text-muted text-center">A simple calendar application that allows the user to save events for each
               hour of the day</p>
+
           </article>
           <!--*Note: "m" stands for margin and y sets both padding-top , padding-bottom , margin top, margin bottom-->
           <article class="col-sm-6 my-3">
             <a href="https://yessyibarra.github.io/HW-3_Random-Password-Generator/">
-              <img src="./images/passwordGenerator.png" alt="passwordGenerator" width="540" height="360"
+              <img id="password" src="./images/passwordGenerator.png" alt="passwordGenerator" width="540" height="360"
                 style="max-width: 100%" class="rounded border border-dark">
             </a>
             <h2 class="my-3 text-center">Random Password Generator</h2>
@@ -100,7 +101,7 @@
           </article>
 
           <article class="col-sm-6 my-3">
-            <img src="./images/layout.jpg" alt="books" width="540" height="360" style="max-width: 100%"
+            <img id="layout" src="./images/layout.jpg" alt="flowcharts on whiteboard" width="540" height="360" style="max-width: 100%"
               class="rounded border border-dark">
             <h2 class="my-3 text-center">Project 4</h2>
             <p class="text-muted text-center">Coming soon. Thanks for visiting my portfolio!</p>
