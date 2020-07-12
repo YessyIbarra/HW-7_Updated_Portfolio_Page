@@ -19,18 +19,21 @@
 </head>
 
 <style>
-  p,
-  h1,
-  a,
-  span {
+  p,h1,a,span {
     font-family: 'Playfair Display', serif;
+  };
+  element.style {
+    margin-bottom: 10px
   }
-
-  ;
-
-  html {
-    overflow-x: hidden;
+  @media only screen and (max-width: 800px) {
+  #project-1,#planner,#password,#layout {
+      height: auto;
   }
+  html,body {
+      width: auto !important;
+      overflow-x: hidden !important
+    }
+  };
 </style>
 
 <body>
@@ -80,7 +83,8 @@
     <div class="row text-center">
       <div class="col">
         <a href="https://www.linkedin.com/in/yessy-ibarra/" class="fab fa-linkedin fa-4x" style="color:#d3a8ae;"></a>
-        <a href="https://github.com/YessyIbarra" class="fa fa-github fa-4x" style="color: black;"></a>
+        <a href="https://github.com/YessyIbarra" class="fa fa-github fa-4x"
+          style="color: black; margin-bottom:50px;"></a>
       </div>
     </div>
     </div>
