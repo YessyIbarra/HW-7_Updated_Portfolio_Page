@@ -1,7 +1,7 @@
 # My Portfolio
  
  Minor updates to my portfolio.
- Adding my first project and some homeworks worked on.
+ Adding my first project and 2 homeworks I have completed.
 
 ## Requirements
 
