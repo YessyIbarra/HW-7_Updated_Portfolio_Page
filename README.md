@@ -1,9 +1,7 @@
-# Unit 08 Project 1 Homework: Professional Materials
-
-Now that you've had some practice with APIs and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer competitive.
-
-If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
-
+# My Portfolio
+ 
+ Minor updates to my portfolio.
+ Adding my first project and some homeworks worked on.
 
 ## Requirements
 
@@ -14,24 +12,6 @@ If you are opting out of career services, this is *still a required assignment*.
 * Updated resume
 
 * Updated LinkedIn profile
-
-
-## Grading
-
-| Requirement      | Weight |
-|---               |---     |
-| Portoflio        | 40%    |
-| GitHub Profile   | 40%    |
-| Resume           | 10%    |
-| LinkedIn Profile | 10%    |
-
-
-## Instructions
-
-1. [Updated Portfolio](#updated-portfolio)
-2. [GitHub Profile](#updated-github-profile)
-3. [Updated Resume](#updated-resume)
-4. [Updated LinkedIn](#updated-linkedin)
 
 ### Updated Portfolio
 
@@ -99,12 +79,3 @@ the default bootstrap theme or an unstyled HTML site.
 ### Updated Resume 
 
 Submit a clear, concise and compelling resume, tailored to the type of job you’re looking for.
-
-
-### Updated LinkedIn Profile 
-
-Update your LinkedIn Profile with a strong bio statement, a professional photo, and links to your Github and portfolio.
-
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
